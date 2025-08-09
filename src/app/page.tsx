@@ -2,7 +2,6 @@ import NavigationBar from "@/components/NavigationBar";
 import Header from "@/components/Header";
 import Services from "@/components/Services";
 import Projects from "@/components/Projects";
-import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -12,7 +11,6 @@ export default function Home() {
       <Header />
       <Services />
       <Projects />
-      <ContactForm />
       <Footer />
     </main>
   );
